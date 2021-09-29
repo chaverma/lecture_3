@@ -1,0 +1,10 @@
+package Lecture_3.zadanie_2;
+
+public class CityCar extends Car{
+    public CityCar(String mark,double weight, Engine engine){
+        this.mark=mark;
+        this.weight=weight;
+        this.engine=engine;
+        this.kind="City Car";
+    }
+}
